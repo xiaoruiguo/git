@@ -3059,7 +3059,7 @@ _git_submodule ()
 		__gitcomp "--default --branch"
 		;;
 	summary,--*)
-		__gitcomp "--cached --files --summary-limit"
+		__gitcomp "--cached --files --for-status --summary-limit"
 		;;
 	foreach,--*|sync,--*)
 		__gitcomp "--recursive"
